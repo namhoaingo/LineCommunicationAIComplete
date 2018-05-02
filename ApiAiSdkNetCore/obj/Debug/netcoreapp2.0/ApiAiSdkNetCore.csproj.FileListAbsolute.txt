@@ -1,0 +1,9 @@
+D:\Mela_Trial\ApiAiSdkNetCore\ApiAiSdkNetCore\bin\Debug\netcoreapp2.0\ApiAiSdkNetCore.deps.json
+D:\Mela_Trial\ApiAiSdkNetCore\ApiAiSdkNetCore\bin\Debug\netcoreapp2.0\ApiAiSdkNetCore.dll
+D:\Mela_Trial\ApiAiSdkNetCore\ApiAiSdkNetCore\obj\Debug\netcoreapp2.0\ApiAiSdkNetCore.csprojResolveAssemblyReference.cache
+D:\Mela_Trial\ApiAiSdkNetCore\ApiAiSdkNetCore\obj\Debug\netcoreapp2.0\ApiAiSdkNetCore.csproj.CoreCompileInputs.cache
+D:\Mela_Trial\ApiAiSdkNetCore\ApiAiSdkNetCore\obj\Debug\netcoreapp2.0\ApiAiSdkNetCore.AssemblyInfoInputs.cache
+D:\Mela_Trial\ApiAiSdkNetCore\ApiAiSdkNetCore\obj\Debug\netcoreapp2.0\ApiAiSdkNetCore.AssemblyInfo.cs
+D:\Mela_Trial\ApiAiSdkNetCore\ApiAiSdkNetCore\bin\Debug\netcoreapp2.0\ApiAiSdkNetCore.pdb
+D:\Mela_Trial\ApiAiSdkNetCore\ApiAiSdkNetCore\obj\Debug\netcoreapp2.0\ApiAiSdkNetCore.dll
+D:\Mela_Trial\ApiAiSdkNetCore\ApiAiSdkNetCore\obj\Debug\netcoreapp2.0\ApiAiSdkNetCore.pdb

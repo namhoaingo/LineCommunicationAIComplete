@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <Authors>Nam Ngo</Authors>
+    <Company></Company>
+    <Product>Line Messaging API</Product>
+    <Description>Line Messaging API for .Net</Description>
+    <Version>1.2.1</Version>
+    <Copyright>© 2017 Nam Ngo</Copyright>
+    <PackageLicenseUrl>https://github.com/pierre3/LineMessagingApi/blob/master/LICENSE</PackageLicenseUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>Line Messaging API;line;bot</PackageTags>
+    <PackageProjectUrl>https://github.com/pierre3/LineMessagingApi/</PackageProjectUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <RepositoryUrl>https://github.com/pierre3/LineMessagingApi/</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>- Trim the string when it exceeds the limit for messages.
+- Add new options in the Buttons Template and the Carousel Template.
+- Supports the LINE URL scheme.</PackageReleaseNotes>
+    <AssemblyVersion>1.2.0.1</AssemblyVersion>
+    <FileVersion>1.2.0.1</FileVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard1.3\Line.Messaging.xml</DocumentationFile>
+    <NoWarn>1701;1702;1705;1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiAiSdkNetCore\ApiAiSdkNetCore.csproj" />
+  </ItemGroup>
+
+</Project>

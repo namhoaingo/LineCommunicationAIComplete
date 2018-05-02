@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Line.Messaging</id>
+    <version>1.2.1</version>
+    <authors>Nam Ngo</authors>
+    <owners>Nam Ngo</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/pierre3/LineMessagingApi/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/pierre3/LineMessagingApi/</projectUrl>
+    <description>Line Messaging API for .Net</description>
+    <releaseNotes>- Trim the string when it exceeds the limit for messages.
+- Add new options in the Buttons Template and the Carousel Template.
+- Supports the LINE URL scheme.</releaseNotes>
+    <copyright>© 2017 Nam Ngo</copyright>
+    <tags>Line Messaging API line bot</tags>
+    <repository type="git" url="https://github.com/pierre3/LineMessagingApi/" />
+    <dependencies>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="ApiAiSdkNetCore" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="11.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Mela_Trial\LineCommunicationAIComplete\Line.Messaging.SDK\bin\Debug\netstandard1.3\Line.Messaging.dll" target="lib\netstandard1.3\Line.Messaging.dll" />
+  </files>
+</package>
